@@ -28,7 +28,13 @@
         if($vista=="login" || $vista=="404"){
             require_once "./app/views/content/".$vista."-view.php";
         }else{
-            require_once "./app/views/inc/navbar.php";
+            if($vista == "./app/views/content/admindashboard-view.php" ||  $vista == "./app/views/content/crudslider-view.php" ||  $vista == "./app/views/content/crudmascota-view.php" ||  $vista == "./app/views/content/cruddonar-view.php"||  $vista == "./app/views/content/addslider-view.php"){
+                require_once "./app/views/inc/adminnavbar.php";
+            }
+            else{
+                require_once "./app/views/inc/navbar.php";
+
+            }
             require_once $vista;
         }
 

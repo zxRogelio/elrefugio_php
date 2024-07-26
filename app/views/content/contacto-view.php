@@ -1,27 +1,14 @@
-<br>
-<br>
-<br>
-<br>
 <div class="container contact-container">
-        <div class="contact-form">
-            <h2>Contacto</h2>
-            <form>
-                <div class="form-group">
-                    <label for="contact-name">Nombre</label>
-                    <input type="text" class="form-control" id="contact-name" placeholder="Introduce tu nombre">
-                </div>
-                <div class="form-group">
-                    <label for="contact-email">Correo Electrónico</label>
-                    <input type="email" class="form-control" id="contact-email" placeholder="Introduce tu correo electrónico">
-                </div>
-                <div class="form-group">
-                    <label for="contact-message">Mensaje</label>
-                    <textarea class="form-control" id="contact-message" rows="3" placeholder="Introduce tu mensaje"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary btn-block">Enviar</button>
-            </form>
+            <div class="contact-content">
+                <h2>Contacto</h2>
+                <p>Para más información, puedes contactarnos a través de los siguientes medios:</p>
+                <ul>
+                    <li>Teléfono: <a href="tel:+123456789">+1 234 567 89</a></li>
+                    <li>Email: <a href="mailto:contacto@elrefugio.com">contacto@elrebaño.com</a></li>
+                    <li>Dirección: Calle Centro, Ciudad Huejutla, País Mexico</li>
+                </ul>
+            </div>
         </div>
-    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
